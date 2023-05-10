@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import MyProfilePic from "./components/MyProfilePic";
 
 export const metadata = {
-  title: "Blog",
+  title: "John's Blog",
   description: "My personal Bloggin space.",
 };
 
