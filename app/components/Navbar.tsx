@@ -1,6 +1,7 @@
 import React from "react";
 // for links
 import Link from "next/link";
+import { FaTwitter, FaGithub, FaLaptop } from "react-icons/fa";
 
 export default function Navbar() {
   return (
@@ -14,6 +15,26 @@ export default function Navbar() {
             Ioannis Kantiloros
           </Link>
         </h1>
+        <div className="flex flex-row justify-center sm:justify-evenly align-middle gap-4 text-white text-4xl lg:text-5xl">
+          <Link
+            className="text-white/90 hover:text-white"
+            href="https://ondairos.github.io/portfolio/"
+          >
+            <FaLaptop />
+          </Link>
+          <Link
+            className="text-white/90 hover:text-white"
+            href="https://github.com/ondairos"
+          >
+            <FaGithub />
+          </Link>
+          <Link
+            className="text-white/90 hover:text-white"
+            href="https://twitter.com/Ondairos"
+          >
+            <FaTwitter />
+          </Link>
+        </div>
       </div>
     </nav>
   );
