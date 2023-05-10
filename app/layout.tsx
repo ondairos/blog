@@ -1,4 +1,5 @@
 import "./globals.css";
+import Navbar from "./components/Navbar";
 
 export const metadata = {
   title: "Blog",
@@ -12,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="dark:bg-slate-800">{children}</body>
+      <body className="dark:bg-slate-800">
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
