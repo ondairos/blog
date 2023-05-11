@@ -1,7 +1,9 @@
 import "./globals.css";
+import Navbar from "./components/Navbar";
+import MyProfilePic from "./components/MyProfilePic";
 
 export const metadata = {
-  title: "Blog",
+  title: "John's Blog",
   description: "My personal Bloggin space.",
 };
 
@@ -12,7 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="dark:bg-slate-800">{children}</body>
+      <body className="dark:bg-slate-800">
+        <Navbar />
+        <MyProfilePic />
+        {children}
+      </body>
     </html>
   );
 }
