@@ -3,7 +3,7 @@ title: "Top NPM packages to try in 2023"
 date: "05-11-2023"
 ---
 
-# Here are 6 of my personal favorite npm packages in 2023:
+## Here are 6 of my personal favorite npm packages in 2023:
 
 - **Next.js** : A popular React-based framework for building server-side rendered and static web applications. Next.js provides a range of features out of the box, such as automatic code splitting and hot module replacement, which make it easy to build fast and efficient applications.
 
