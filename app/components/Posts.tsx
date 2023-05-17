@@ -1,8 +1,11 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import { getSortedPostsData } from "@/lib/posts";
 import ListItem from "./ListItem";
 
 export default function Posts() {
+  const [searchQuery, setSearchQuery] = useState("");
   // getting right away, not gonna use async await
   const posts = getSortedPostsData();
   return (
