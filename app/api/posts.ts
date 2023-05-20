@@ -31,6 +31,6 @@ export default function handler(req: any, res: any) {
     const sortedPostsData = allPostsData.sort((a, b) =>
         a.date < b.date ? 1 : -1
     );
-
+    console.log(sortedPostsData);
     res.status(200).json(sortedPostsData);
 }
