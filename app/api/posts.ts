@@ -33,4 +33,6 @@ export default function handler(req: any, res: any) {
     );
     console.log(sortedPostsData);
     res.status(200).json(sortedPostsData);
+    console.log(sortedPostsData);
+
 }

@@ -12,7 +12,7 @@ export default function Posts() {
 
   useEffect(() => {
     const fetchPostsData = async () => {
-      const data = await getSortedPostsData();
+      // const data = await getSortedPostsData();
       setPosts(data);
     };
 
